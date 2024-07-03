@@ -37,16 +37,6 @@ public class Orden {
         this.quantity = quantity;
     }
 
-
-
-    public boolean isComplete() {
-        return complete;
-    }
-
-    public void setComplete(boolean complete) {
-        this.complete = complete;
-    }
-
     public Date getShipDate() {
         return shipDate;
     }
@@ -62,4 +52,14 @@ public class Orden {
     public void setStatus(String status) {
         this.status = status;
     }
+
+    public boolean isComplete() {
+        return complete;
+    }
+
+    public void setComplete(boolean complete) {
+        this.complete = complete;
+    }
+
+
 }
