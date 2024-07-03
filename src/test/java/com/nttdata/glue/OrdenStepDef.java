@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.Steps;
 import static java.lang.Boolean.parseBoolean;
 import static java.lang.Integer.parseInt;
 
-public class CreoOrdenStepDef {
+public class OrdenStepDef {
     @Steps
     OrdenStep orden;
 
